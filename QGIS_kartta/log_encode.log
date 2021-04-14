@@ -1,0 +1,361 @@
+ffmpeg version N-101030-g129bab5c7e-ge0fd35d867+2 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration:  --pkg-config=pkgconf --cc='ccache gcc' --cxx='ccache g++' --disable-autodetect --enable-amf --enable-bzlib --enable-cuda --enable-cuvid --enable-d3d11va --enable-dxva2 --enable-iconv --enable-lzma --enable-nvenc --enable-zlib --enable-sdl2 --enable-ffnvcodec --enable-nvdec --enable-cuda-llvm --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libdav1d --enable-libaom --disable-debug --enable-fontconfig --enable-libass --enable-libbluray --enable-libfreetype --enable-libmfx --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-amrwbenc --enable-libwebp --enable-libxml2 --enable-libzimg --enable-libshine --enable-gpl --enable-avisynth --enable-libxvid --enable-libopenmpt --enable-version3 --enable-libsrt --enable-libgsm --enable-libvmaf --enable-libsvtav1 --enable-librtmp --enable-mbedtls --extra-cflags=-DLIBTWOLAME_STATIC --extra-libs=-lstdc++ --extra-cflags=-DLIBXML_STATIC --extra-libs=-liconv --disable-w32threads
+  libavutil      56. 64.100 / 56. 64.100
+  libavcodec     58.122.100 / 58.122.100
+  libavformat    58. 67.100 / 58. 67.100
+  libavdevice    58. 11.103 / 58. 11.103
+  libavfilter     7.103.100 /  7.103.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.ZaHnHg'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'scale=w=1920:h=1080:force_original_aspect_ratio=decrease'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta\TurunSatama2.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.ZaHnHg.
+[file @ 000002108a5bdf00] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame%04d.png.
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0000.png' for reading
+[file @ 000002108a602d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a60af00] Statistics: 1006313 bytes read, 0 seeks
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0001.png' for reading
+[file @ 000002108aac5d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108aac6500] Statistics: 1005481 bytes read, 0 seeks
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0002.png' for reading
+[file @ 000002108aac5d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a602d40] Statistics: 1004514 bytes read, 0 seeks
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0003.png' for reading
+[file @ 000002108c2d5540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108c2d5600] Statistics: 1003717 bytes read, 0 seeks
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0004.png' for reading
+[file @ 000002108c2d5540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a602e00] Statistics: 1002973 bytes read, 0 seeks
+[image2 @ 000002108a5fe180] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame%04d.png':
+  Duration: 00:00:02.04, start: 0.000000, bitrate: N/A
+  Stream #0:0, 5, 1/25: Video: png, 1 reference frame, rgba(pc), 3200x1800 [SAR 19685:19685 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta\TurunSatama2.mp4.
+Applying option vf (set video filters) with argument scale=w=1920:h=1080:force_original_aspect_ratio=decrease.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta\TurunSatama2.mp4.
+[file @ 000002108c4c0e00] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 5 times
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0005.png' for reading
+[file @ 000002108aac6540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a661cc0] Statistics: 1002113 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0006.png' for reading
+[file @ 000002108aac6540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a661cc0] Statistics: 1001421 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0007.png' for reading
+[file @ 000002108aac6540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108abced80] Statistics: 1000666 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0008.png' for reading
+[file @ 000002108aac6540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108abced80] Statistics: 999884 bytes read, 0 seeks
+[Parsed_scale_0 @ 0000021088d97b00] Setting 'w' to value '1920'
+[Parsed_scale_0 @ 0000021088d97b00] Setting 'h' to value '1080'
+[Parsed_scale_0 @ 0000021088d97b00] Setting 'force_original_aspect_ratio' to value 'decrease'
+[Parsed_scale_0 @ 0000021088d97b00] Setting 'flags' to value 'bicubic'
+[Parsed_scale_0 @ 0000021088d97b00] w:1920 h:1080 flags:'bicubic' interl:0
+[graph 0 input from stream 0:0 @ 000002108c54f9c0] Setting 'video_size' to value '3200x1800'
+[graph 0 input from stream 0:0 @ 000002108c54f9c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002108c54f9c0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000002108c54f9c0] Setting 'pixel_aspect' to value '19685/19685'
+[graph 0 input from stream 0:0 @ 000002108c54f9c0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000002108c54f9c0] w:3200 h:1800 pixfmt:rgba tb:1/24 fr:24/1 sar:19685/19685
+[format @ 000002108c54fac0] Setting 'pix_fmts' to value 'yuv420p'
+[AVFilterGraph @ 000002108aac6540] query_formats: 4 queried, 3 merged, 0 already done, 0 delayed
+[Parsed_scale_0 @ 0000021088d97b00] w:3200 h:1800 fmt:rgba sar:19685/19685 -> w:1920 h:1080 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 000002108c4bfbc0] using mv_range_thread = 40
+[libx264 @ 000002108c4bfbc0] using SAR=1/1
+[libx264 @ 000002108c4bfbc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000002108c4bfbc0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000002108c4bfbc0] 264 - core 161 r3044 a7e2c6a - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta\TurunSatama2.mp4':
+  Metadata:
+    encoder         : Lavf58.67.100
+  Stream #0:0, 0, 1/12288: Video: h264, 1 reference frame (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 24 fps, 12288 tbn
+    Metadata:
+      encoder         : Lavc58.122.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Clipping frame in rate conversion by 0.000008
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0009.png' for reading
+[file @ 000002108c501840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108c53a540] Statistics: 998971 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0010.png' for reading
+[file @ 000002108c5013c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108c53a540] Statistics: 998071 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0011.png' for reading
+[file @ 000002108c501c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 997201 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0012.png' for reading
+[file @ 000002108c501580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 996548 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0013.png' for reading
+[file @ 000002108c501840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 995988 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0014.png' for reading
+[file @ 000002108c5012c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 994995 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0015.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 994226 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0016.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 993584 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0017.png' for reading
+[file @ 000002108c501b40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 993191 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0018.png' for reading
+[file @ 000002108c501580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 992724 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0019.png' for reading
+[file @ 000002108c501b40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 992109 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0020.png' for reading
+[file @ 000002108c501780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 991645 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0021.png' for reading
+[file @ 000002108c501680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 990279 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0022.png' for reading
+[file @ 000002108c501780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 989815 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0023.png' for reading
+[file @ 000002108c501680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 989156 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0024.png' for reading
+[file @ 000002108c501c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 988826 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0025.png' for reading
+[file @ 000002108c501a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 988260 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0026.png' for reading
+[file @ 000002108c501b40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 987572 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0027.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 987089 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0028.png' for reading
+[file @ 000002108c501580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 986492 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0029.png' for reading
+[file @ 000002108c501680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 986086 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0030.png' for reading
+[file @ 000002108c501780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 985610 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0031.png' for reading
+[file @ 000002108c501680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 985418 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0032.png' for reading
+[file @ 000002108c501c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 984983 bytes read, 0 seeks
+frame=   25 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0033.png' for reading
+[file @ 000002108c501e00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 982981 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0034.png' for reading
+[file @ 000002108c501e00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 981383 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0035.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 980487 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0036.png' for reading
+[file @ 000002108c501d00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 978812 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0037.png' for reading
+[file @ 000002108c501fc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 977059 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0038.png' for reading
+[file @ 000002108c501780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 974518 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0039.png' for reading
+[file @ 000002108c501480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 971658 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0040.png' for reading
+[file @ 000002108c501e00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 968893 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0041.png' for reading
+[file @ 000002108c5020c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 966706 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0042.png' for reading
+[file @ 000002108c501480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 964834 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0043.png' for reading
+[file @ 000002108c501a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 962660 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0044.png' for reading
+[file @ 000002108c501a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 960018 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0045.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 957116 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0046.png' for reading
+[file @ 000002108c501c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 954165 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0047.png' for reading
+[file @ 000002108c501780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 951411 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0048.png' for reading
+[file @ 000002108c501780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 948690 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0049.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 945328 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002108a5fe180] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame0050.png' for reading
+[file @ 000002108c501940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002108a650a80] Statistics: 942852 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 3 times
+frame=   47 fps= 43 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 5 times
+[out_0_0 @ 000002108c54f5c0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 000002108c4bfbc0] frame=   0 QP=14.62 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=131046 bytes
+[libx264 @ 000002108c4bfbc0] frame=   1 QP=17.73 NAL=2 Slice:P Poc:2   I:65   P:432  SKIP:7663 size=1557 bytes
+[libx264 @ 000002108c4bfbc0] frame=   2 QP=18.31 NAL=2 Slice:P Poc:4   I:48   P:155  SKIP:7957 size=669 bytes
+[libx264 @ 000002108c4bfbc0] frame=   3 QP=17.95 NAL=2 Slice:P Poc:6   I:38   P:115  SKIP:8007 size=552 bytes
+[libx264 @ 000002108c4bfbc0] frame=   4 QP=18.82 NAL=2 Slice:P Poc:8   I:7    P:161  SKIP:7992 size=557 bytes
+[libx264 @ 000002108c4bfbc0] frame=   5 QP=19.01 NAL=2 Slice:P Poc:10  I:22   P:101  SKIP:8037 size=412 bytes
+[libx264 @ 000002108c4bfbc0] frame=   6 QP=18.78 NAL=2 Slice:P Poc:12  I:33   P:82   SKIP:8045 size=531 bytes
+[libx264 @ 000002108c4bfbc0] frame=   7 QP=19.34 NAL=2 Slice:P Poc:14  I:31   P:74   SKIP:8055 size=458 bytes
+[libx264 @ 000002108c4bfbc0] frame=   8 QP=19.39 NAL=2 Slice:P Poc:16  I:31   P:70   SKIP:8059 size=408 bytes
+[libx264 @ 000002108c4bfbc0] frame=   9 QP=18.74 NAL=2 Slice:P Poc:18  I:32   P:69   SKIP:8059 size=364 bytes
+[libx264 @ 000002108c4bfbc0] frame=  10 QP=18.33 NAL=2 Slice:P Poc:20  I:1    P:114  SKIP:8045 size=471 bytes
+[libx264 @ 000002108c4bfbc0] frame=  11 QP=18.51 NAL=2 Slice:P Poc:22  I:32   P:83   SKIP:8045 size=427 bytes
+[libx264 @ 000002108c4bfbc0] frame=  12 QP=18.68 NAL=2 Slice:P Poc:24  I:0    P:95   SKIP:8065 size=388 bytes
+[libx264 @ 000002108c4bfbc0] frame=  13 QP=19.01 NAL=2 Slice:P Poc:26  I:31   P:73   SKIP:8056 size=417 bytes
+[libx264 @ 000002108c4bfbc0] frame=  14 QP=18.86 NAL=2 Slice:P Poc:28  I:31   P:49   SKIP:8080 size=320 bytes
+[libx264 @ 000002108c4bfbc0] frame=  15 QP=22.17 NAL=2 Slice:P Poc:30  I:0    P:96   SKIP:8064 size=347 bytes
+[libx264 @ 000002108c4bfbc0] frame=  16 QP=22.75 NAL=2 Slice:P Poc:32  I:36   P:70   SKIP:8054 size=494 bytes
+[libx264 @ 000002108c4bfbc0] frame=  17 QP=22.41 NAL=2 Slice:P Poc:34  I:33   P:64   SKIP:8063 size=484 bytes
+[libx264 @ 000002108c4bfbc0] frame=  18 QP=22.36 NAL=2 Slice:P Poc:36  I:33   P:59   SKIP:8068 size=453 bytes
+[libx264 @ 000002108c4bfbc0] frame=  19 QP=19.28 NAL=2 Slice:P Poc:38  I:34   P:59   SKIP:8067 size=484 bytes
+[libx264 @ 000002108c4bfbc0] frame=  20 QP=18.09 NAL=2 Slice:P Poc:40  I:35   P:53   SKIP:8072 size=381 bytes
+[libx264 @ 000002108c4bfbc0] frame=  21 QP=21.57 NAL=2 Slice:P Poc:42  I:40   P:52   SKIP:8068 size=637 bytes
+[libx264 @ 000002108c4bfbc0] frame=  22 QP=17.81 NAL=2 Slice:P Poc:44  I:34   P:68   SKIP:8058 size=414 bytes
+[libx264 @ 000002108c4bfbc0] frame=  23 QP=18.87 NAL=2 Slice:P Poc:46  I:33   P:76   SKIP:8051 size=500 bytes
+[libx264 @ 000002108c4bfbc0] frame=  24 QP=18.22 NAL=2 Slice:P Poc:48  I:36   P:64   SKIP:8060 size=470 bytes
+[libx264 @ 000002108c4bfbc0] frame=  25 QP=20.31 NAL=2 Slice:P Poc:50  I:33   P:61   SKIP:8066 size=487 bytes
+[libx264 @ 000002108c4bfbc0] frame=  26 QP=25.84 NAL=2 Slice:P Poc:52  I:36   P:50   SKIP:8074 size=440 bytes
+[libx264 @ 000002108c4bfbc0] frame=  27 QP=25.85 NAL=2 Slice:P Poc:54  I:38   P:48   SKIP:8074 size=356 bytes
+[libx264 @ 000002108c4bfbc0] frame=  28 QP=15.73 NAL=2 Slice:P Poc:56  I:34   P:60   SKIP:8066 size=300 bytes
+[libx264 @ 000002108c4bfbc0] frame=  29 QP=26.10 NAL=2 Slice:P Poc:58  I:33   P:56   SKIP:8071 size=329 bytes
+[libx264 @ 000002108c4bfbc0] frame=  30 QP=25.88 NAL=2 Slice:P Poc:60  I:36   P:57   SKIP:8067 size=337 bytes
+[libx264 @ 000002108c4bfbc0] frame=  31 QP=20.78 NAL=2 Slice:P Poc:62  I:34   P:55   SKIP:8071 size=309 bytes
+[libx264 @ 000002108c4bfbc0] frame=  32 QP=25.30 NAL=2 Slice:P Poc:64  I:4    P:69   SKIP:8087 size=312 bytes
+[libx264 @ 000002108c4bfbc0] frame=  33 QP=17.31 NAL=2 Slice:P Poc:66  I:37   P:65   SKIP:8058 size=595 bytes
+[libx264 @ 000002108c4bfbc0] frame=  34 QP=17.36 NAL=2 Slice:P Poc:68  I:4    P:63   SKIP:8093 size=286 bytes
+[libx264 @ 000002108c4bfbc0] frame=  35 QP=18.97 NAL=2 Slice:P Poc:70  I:35   P:62   SKIP:8063 size=504 bytes
+[libx264 @ 000002108c4bfbc0] frame=  36 QP=19.68 NAL=2 Slice:P Poc:72  I:3    P:54   SKIP:8103 size=354 bytes
+[libx264 @ 000002108c4bfbc0] frame=  37 QP=18.62 NAL=2 Slice:P Poc:74  I:6    P:43   SKIP:8111 size=437 bytes
+[libx264 @ 000002108c4bfbc0] frame=  38 QP=18.55 NAL=2 Slice:P Poc:76  I:33   P:57   SKIP:8070 size=523 bytes
+[libx264 @ 000002108c4bfbc0] frame=  39 QP=18.82 NAL=2 Slice:P Poc:78  I:5    P:55   SKIP:8100 size=467 bytes
+[libx264 @ 000002108c4bfbc0] frame=  40 QP=18.16 NAL=2 Slice:P Poc:80  I:3    P:40   SKIP:8117 size=331 bytes
+[libx264 @ 000002108c4bfbc0] frame=  41 QP=17.79 NAL=2 Slice:P Poc:82  I:12   P:39   SKIP:8109 size=287 bytes
+[libx264 @ 000002108c4bfbc0] frame=  42 QP=17.24 NAL=2 Slice:P Poc:84  I:4    P:32   SKIP:8124 size=238 bytes
+[libx264 @ 000002108c4bfbc0] frame=  43 QP=16.46 NAL=2 Slice:P Poc:86  I:4    P:38   SKIP:8118 size=269 bytes
+[libx264 @ 000002108c4bfbc0] frame=  44 QP=17.79 NAL=2 Slice:P Poc:88  I:35   P:34   SKIP:8091 size=340 bytes
+[libx264 @ 000002108c4bfbc0] frame=  45 QP=16.89 NAL=2 Slice:P Poc:90  I:4    P:43   SKIP:8113 size=282 bytes
+[libx264 @ 000002108c4bfbc0] frame=  46 QP=22.86 NAL=2 Slice:P Poc:92  I:16   P:32   SKIP:8112 size=315 bytes
+[libx264 @ 000002108c4bfbc0] frame=  47 QP=18.67 NAL=2 Slice:P Poc:94  I:2    P:22   SKIP:8136 size=214 bytes
+[libx264 @ 000002108c4bfbc0] frame=  48 QP=18.69 NAL=2 Slice:P Poc:96  I:4    P:19   SKIP:8137 size=268 bytes
+[libx264 @ 000002108c4bfbc0] frame=  49 QP=19.13 NAL=2 Slice:P Poc:98  I:3    P:29   SKIP:8128 size=199 bytes
+[libx264 @ 000002108c4bfbc0] frame=  50 QP=19.31 NAL=2 Slice:P Poc:100 I:48   P:55   SKIP:8057 size=261 bytes
+Not writing 'clli' atom. No content light level info.
+Not writing 'mdcv' atom. Missing mastering metadata.
+frame=   51 fps= 38 q=-1.0 Lsize=     150kB time=00:00:02.08 bitrate= 591.2kbits/s speed=1.54x    
+[AVIOContext @ 000002108a5fe040] Statistics: 0 seeks, 4 writeouts
+video:149kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.693218%
+Input file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta/frame%04d.png):
+  Input stream #0:0 (video): 51 packets read (50185492 bytes); 51 frames decoded; 
+  Total: 51 packets (50185492 bytes) demuxed
+Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/QGIS_kartta\TurunSatama2.mp4):
+  Output stream #0:0 (video): 51 frames encoded; 51 packets muxed (152910 bytes); 
+  Total: 51 packets (152910 bytes) muxed
+51 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000002108c4c0f80] Statistics: 2 seeks, 4 writeouts
+[libx264 @ 000002108c4bfbc0] frame I:1     Avg QP:14.62  size:131046
+[libx264 @ 000002108c4bfbc0] frame P:50    Avg QP:19.66  size:   425
+[libx264 @ 000002108c4bfbc0] mb I  I16..4: 67.2%  0.0% 32.8%
+[libx264 @ 000002108c4bfbc0] mb P  I16..4:  0.3%  0.0%  0.0%  P16..4:  0.8%  0.1%  0.0%  0.0%  0.0%    skip:98.8%
+[libx264 @ 000002108c4bfbc0] coded y,uvDC,uvAC intra: 19.9% 39.2% 25.4% inter: 0.0% 0.5% 0.1%
+[libx264 @ 000002108c4bfbc0] i16 v,h,dc,p: 79% 20%  2%  0%
+[libx264 @ 000002108c4bfbc0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 37% 24%  2%  1%  1%  9%  3% 10%
+[libx264 @ 000002108c4bfbc0] i8c dc,h,v,p: 67% 22%  9%  2%
+[libx264 @ 000002108c4bfbc0] ref P L0: 87.0%  9.2%  3.8%
+[libx264 @ 000002108c4bfbc0] kb/s:573.29

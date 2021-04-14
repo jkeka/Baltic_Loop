@@ -1,0 +1,23 @@
+Slide 6:
+
+Werner like picture
+
+What do you mean with project architechture
+
+Should be "What to do, what is done, and what it's purpose"
+
+Think weight as hours
+
+Thursday:
+Almost polished backlog plan 
+Other sprint doings than the backlog
+
+
+
+Traffic safety issues, keltainen huomioteksti
+
+Liittymät jotenkin korostettuna simulaatioissa, koska ne on ongelmakohtia. Niitä voisi kuvastaa pelkästään kehäkolmosella.
+
+3D-visualisointeihin pelkkä tie, rekka, kaiteet, muutama auto.
+
+3D-perspektiivi vain solmukohtiin ja mahdollisesti liikennevalokohtiin.
