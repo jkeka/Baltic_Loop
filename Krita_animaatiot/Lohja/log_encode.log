@@ -12,7 +12,7 @@ ffmpeg version N-101030-g129bab5c7e-ge0fd35d867+2 Copyright (c) 2000-2021 the FF
 Splitting the commandline.
 Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
 Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
-Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.BPBirN'.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.WYEdla'.
 Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
 Reading option '-start_number' ... matched as AVOption 'start_number' with argument '12'.
 Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame%04d.png'.
@@ -26,98 +26,101 @@ Finished splitting the commandline.
 Parsing a group of options: global .
 Applying option v (set logging level) with argument debug.
 Applying option nostdin (enable or disable interaction on standard input) with argument 0.
-Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.BPBirN.
-[file @ 000001dc1e8adcc0] Setting default whitelist 'file,crypto,data'
+Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.WYEdla.
+[file @ 000001c23a0fdcc0] Setting default whitelist 'file,crypto,data'
 Applying option y (overwrite output files) with argument 1.
 Successfully parsed a group of options.
 Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame%04d.png.
 Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
 Successfully parsed a group of options.
 Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame%04d.png.
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0012.png' for reading
-[file @ 000001dc1e8f2ac0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e8fac80] Statistics: 36713 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0013.png' for reading
-[file @ 000001dc1e903f80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 37055 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0014.png' for reading
-[file @ 000001dc1e8f9e40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 37366 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0015.png' for reading
-[file @ 000001dc1e8f9e40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 37655 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0016.png' for reading
-[file @ 000001dc1e8fa180] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 37956 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0017.png' for reading
-[file @ 000001dc1e8fa380] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 38231 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0018.png' for reading
-[file @ 000001dc1e8fa580] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 38531 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0019.png' for reading
-[file @ 000001dc1e8fa740] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 38808 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0020.png' for reading
-[file @ 000001dc1e8fa940] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 39118 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0021.png' for reading
-[file @ 000001dc1e8faac0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 39428 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0022.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e910480] Statistics: 39739 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0023.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e905a00] Statistics: 40024 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0024.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e905a00] Statistics: 40337 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0025.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e905a00] Statistics: 40636 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0026.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e905a00] Statistics: 40943 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0027.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e905a00] Statistics: 41241 bytes read, 0 seeks
-[image2 @ 000001dc1e8edfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0028.png' for reading
-[file @ 000001dc1e8fac40] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 000001dc1e905a00] Statistics: 41566 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0012.png' for reading
+[file @ 000001c23a142ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a14ac80] Statistics: 39067 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0013.png' for reading
+[file @ 000001c23a154880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 41037 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0014.png' for reading
+[file @ 000001c23a149e40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 40806 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0015.png' for reading
+[file @ 000001c23a149e40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 41318 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0016.png' for reading
+[file @ 000001c23a14a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 42168 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0017.png' for reading
+[file @ 000001c23a14a380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 42563 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0018.png' for reading
+[file @ 000001c23a14a580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 42638 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0019.png' for reading
+[file @ 000001c23a14a740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 43475 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0020.png' for reading
+[file @ 000001c23a14a940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 43949 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0021.png' for reading
+[file @ 000001c23a14aac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 44236 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0022.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 44296 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0023.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 44737 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0024.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 45598 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0025.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 45670 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0026.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 46373 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0027.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 46875 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0028.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 47281 bytes read, 0 seeks
+[image2 @ 000001c23a13dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame0029.png' for reading
+[file @ 000001c23a14ac40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001c23a160dc0] Statistics: 47281 bytes read, 0 seeks
 Input #0, image2, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame%04d.png':
-  Duration: 00:00:00.68, start: 0.000000, bitrate: N/A
-  Stream #0:0, 17, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+  Duration: 00:00:00.72, start: 0.000000, bitrate: N/A
+  Stream #0:0, 18, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
 Successfully opened the file.
 Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/Lohja_mustat.mp4.
 Applying option profile:v (set profile) with argument baseline.
 Applying option pix_fmt (set pixel format) with argument yuv420p.
 Successfully parsed a group of options.
 Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/Lohja_mustat.mp4.
-[file @ 000001dc1f534380] Setting default whitelist 'file,crypto,data'
+[file @ 000001c23ae59640] Setting default whitelist 'file,crypto,data'
 Successfully opened the file.
 detected 8 logical cores
 Stream mapping:
   Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
     Last message repeated 8 times
-[graph 0 input from stream 0:0 @ 000001dc1d087a40] Setting 'video_size' to value '1920x1080'
-[graph 0 input from stream 0:0 @ 000001dc1d087a40] Setting 'pix_fmt' to value '26'
-[graph 0 input from stream 0:0 @ 000001dc1d087a40] Setting 'time_base' to value '1/24'
-[graph 0 input from stream 0:0 @ 000001dc1d087a40] Setting 'pixel_aspect' to value '2834/2834'
-[graph 0 input from stream 0:0 @ 000001dc1d087a40] Setting 'frame_rate' to value '24/1'
-[graph 0 input from stream 0:0 @ 000001dc1d087a40] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
-[format @ 000001dc1e8fa700] Setting 'pix_fmts' to value 'yuv420p'
-[auto_scaler_0 @ 000001dc1e8fa300] Setting 'flags' to value 'bicubic'
-[auto_scaler_0 @ 000001dc1e8fa300] w:iw h:ih flags:'bicubic' interl:0
-[format @ 000001dc1e8fa700] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
-[AVFilterGraph @ 000001dc1e9088c0] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
-[auto_scaler_0 @ 000001dc1e8fa300] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:yuv420p sar:1/1 flags:0x4
-[libx264 @ 000001dc1e907740] using mv_range_thread = 40
-[libx264 @ 000001dc1e907740] using SAR=1/1
-[libx264 @ 000001dc1e907740] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
-[libx264 @ 000001dc1e907740] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
-[libx264 @ 000001dc1e907740] 264 - core 161 r3044 a7e2c6a - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[graph 0 input from stream 0:0 @ 000001c238917a40] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 000001c238917a40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001c238917a40] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000001c238917a40] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 000001c238917a40] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000001c238917a40] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
+[format @ 000001c23a14a8c0] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scaler_0 @ 000001c23a14a500] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000001c23a14a500] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000001c23a14a8c0] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 000001c23a155c40] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 000001c23a14a500] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 000001c23ae585c0] using mv_range_thread = 40
+[libx264 @ 000001c23ae585c0] using SAR=1/1
+[libx264 @ 000001c23ae585c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001c23ae585c0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000001c23ae585c0] 264 - core 161 r3044 a7e2c6a - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
 Output #0, mp4, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/Lohja_mustat.mp4':
   Metadata:
     encoder         : Lavf58.67.100
@@ -128,44 +131,47 @@ Output #0, mp4, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohj
       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
 Clipping frame in rate conversion by 0.000008
 frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-    Last message repeated 17 times
-[out_0_0 @ 000001dc1e8fa8c0] EOF on sink link out_0_0:default.
+    Last message repeated 18 times
+[out_0_0 @ 000001c23a154900] EOF on sink link out_0_0:default.
 No more output streams to write to, finishing.
-[libx264 @ 000001dc1e907740] frame=   0 QP=11.00 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=6163 bytes
-[libx264 @ 000001dc1e907740] frame=   1 QP=11.00 NAL=2 Slice:P Poc:2   I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   2 QP=11.00 NAL=2 Slice:P Poc:4   I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   3 QP=11.00 NAL=2 Slice:P Poc:6   I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   4 QP=11.00 NAL=2 Slice:P Poc:8   I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   5 QP=11.00 NAL=2 Slice:P Poc:10  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   6 QP=11.00 NAL=2 Slice:P Poc:12  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   7 QP=11.00 NAL=2 Slice:P Poc:14  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   8 QP=11.00 NAL=2 Slice:P Poc:16  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=   9 QP=11.00 NAL=2 Slice:P Poc:18  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  10 QP=11.00 NAL=2 Slice:P Poc:20  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  11 QP=11.00 NAL=2 Slice:P Poc:22  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  12 QP=11.00 NAL=2 Slice:P Poc:24  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  13 QP=11.00 NAL=2 Slice:P Poc:26  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  14 QP=11.00 NAL=2 Slice:P Poc:28  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  15 QP=12.00 NAL=2 Slice:P Poc:30  I:0    P:0    SKIP:8160 size=12 bytes
-[libx264 @ 000001dc1e907740] frame=  16 QP=13.00 NAL=2 Slice:P Poc:32  I:0    P:0    SKIP:8160 size=12 bytes
+[libx264 @ 000001c23ae585c0] frame=   0 QP=11.12 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=6546 bytes
+[libx264 @ 000001c23ae585c0] frame=   1 QP=23.30 NAL=2 Slice:P Poc:2   I:4    P:0    SKIP:8156 size=233 bytes
+[libx264 @ 000001c23ae585c0] frame=   2 QP=22.66 NAL=2 Slice:P Poc:4   I:5    P:0    SKIP:8155 size=258 bytes
+[libx264 @ 000001c23ae585c0] frame=   3 QP=22.27 NAL=2 Slice:P Poc:6   I:4    P:0    SKIP:8156 size=256 bytes
+[libx264 @ 000001c23ae585c0] frame=   4 QP=22.84 NAL=2 Slice:P Poc:8   I:3    P:2    SKIP:8155 size=227 bytes
+[libx264 @ 000001c23ae585c0] frame=   5 QP=22.15 NAL=2 Slice:P Poc:10  I:4    P:2    SKIP:8154 size=260 bytes
+[libx264 @ 000001c23ae585c0] frame=   6 QP=21.39 NAL=2 Slice:P Poc:12  I:4    P:0    SKIP:8156 size=235 bytes
+[libx264 @ 000001c23ae585c0] frame=   7 QP=21.08 NAL=2 Slice:P Poc:14  I:4    P:0    SKIP:8156 size=233 bytes
+[libx264 @ 000001c23ae585c0] frame=   8 QP=18.99 NAL=2 Slice:P Poc:16  I:5    P:1    SKIP:8154 size=258 bytes
+[libx264 @ 000001c23ae585c0] frame=   9 QP=20.23 NAL=2 Slice:P Poc:18  I:4    P:0    SKIP:8156 size=215 bytes
+[libx264 @ 000001c23ae585c0] frame=  10 QP=18.78 NAL=2 Slice:P Poc:20  I:5    P:0    SKIP:8155 size=298 bytes
+[libx264 @ 000001c23ae585c0] frame=  11 QP=16.10 NAL=2 Slice:P Poc:22  I:5    P:1    SKIP:8154 size=232 bytes
+[libx264 @ 000001c23ae585c0] frame=  12 QP=18.48 NAL=2 Slice:P Poc:24  I:5    P:3    SKIP:8152 size=236 bytes
+[libx264 @ 000001c23ae585c0] frame=  13 QP=18.18 NAL=2 Slice:P Poc:26  I:4    P:0    SKIP:8156 size=204 bytes
+[libx264 @ 000001c23ae585c0] frame=  14 QP=17.78 NAL=2 Slice:P Poc:28  I:4    P:0    SKIP:8156 size=193 bytes
+[libx264 @ 000001c23ae585c0] frame=  15 QP=16.47 NAL=2 Slice:P Poc:30  I:4    P:0    SKIP:8156 size=171 bytes
+[libx264 @ 000001c23ae585c0] frame=  16 QP=16.58 NAL=2 Slice:P Poc:32  I:4    P:0    SKIP:8156 size=161 bytes
+[libx264 @ 000001c23ae585c0] frame=  17 QP=17.00 NAL=2 Slice:P Poc:34  I:0    P:0    SKIP:8160 size=12 bytes
 Not writing 'clli' atom. No content light level info.
 Not writing 'mdcv' atom. Missing mastering metadata.
-frame=   17 fps=0.0 q=-1.0 Lsize=       8kB time=00:00:00.66 bitrate=  94.9kbits/s speed=2.32x    
-[AVIOContext @ 000001dc1e8ede00] Statistics: 0 seeks, 2 writeouts
-video:7kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 13.230241%
+frame=   18 fps=0.0 q=-1.0 Lsize=      12kB time=00:00:00.70 bitrate= 133.1kbits/s speed=2.31x    
+[AVIOContext @ 000001c23a13de00] Statistics: 0 seeks, 2 writeouts
+video:11kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 8.547481%
 Input file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/frame%04d.png):
-  Input stream #0:0 (video): 17 packets read (665347 bytes); 17 frames decoded; 
-  Total: 17 packets (665347 bytes) demuxed
+  Input stream #0:0 (video): 18 packets read (789368 bytes); 18 frames decoded; 
+  Total: 18 packets (789368 bytes) demuxed
 Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Lohja/Lohja_mustat.mp4):
-  Output stream #0:0 (video): 17 frames encoded; 17 packets muxed (6984 bytes); 
-  Total: 17 packets (6984 bytes) muxed
-17 frames successfully decoded, 0 decoding errors
-[AVIOContext @ 000001dc1f5744c0] Statistics: 2 seeks, 4 writeouts
-[libx264 @ 000001dc1e907740] frame I:1     Avg QP:11.00  size:  6163
-[libx264 @ 000001dc1e907740] frame P:16    Avg QP:11.19  size:    12
-[libx264 @ 000001dc1e907740] mb I  I16..4: 100.0%  0.0%  0.0%
-[libx264 @ 000001dc1e907740] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.0%  0.0%  0.0%  0.0%  0.0%    skip:100.0%
-[libx264 @ 000001dc1e907740] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0% inter: 0.0% 0.0% 0.0%
-[libx264 @ 000001dc1e907740] i16 v,h,dc,p: 99%  0%  1%  0%
-[libx264 @ 000001dc1e907740] i8c dc,h,v,p: 100%  0%  0%  0%
-[libx264 @ 000001dc1e907740] kb/s:71.77
+  Output stream #0:0 (video): 18 frames encoded; 18 packets muxed (10857 bytes); 
+  Total: 18 packets (10857 bytes) muxed
+18 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001c23ae997c0] Statistics: 2 seeks, 4 writeouts
+[libx264 @ 000001c23ae585c0] frame I:1     Avg QP:11.12  size:  6546
+[libx264 @ 000001c23ae585c0] frame P:17    Avg QP:19.66  size:   217
+[libx264 @ 000001c23ae585c0] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 000001c23ae585c0] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.0%  0.0%  0.0%  0.0%  0.0%    skip:99.9%
+[libx264 @ 000001c23ae585c0] coded y,uvDC,uvAC intra: 0.4% 3.7% 0.8% inter: 0.0% 0.0% 0.0%
+[libx264 @ 000001c23ae585c0] i16 v,h,dc,p: 99%  0%  1%  0%
+[libx264 @ 000001c23ae585c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 45%  3%  3%  3%  4%  3%  3%
+[libx264 @ 000001c23ae585c0] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 000001c23ae585c0] ref P L0: 88.9% 11.1%
+[libx264 @ 000001c23ae585c0] kb/s:109.10

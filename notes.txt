@@ -21,3 +21,9 @@ Liittymät jotenkin korostettuna simulaatioissa, koska ne on ongelmakohtia. Niit
 3D-visualisointeihin pelkkä tie, rekka, kaiteet, muutama auto.
 
 3D-perspektiivi vain solmukohtiin ja mahdollisesti liikennevalokohtiin.
+
+
+Terminaali:
+
+https://teams.microsoft.com/_#/school/files/General?threadId=19%3A661307174a764e00be8af4e561b91756%40thread.
+skype&ctx=channel&context=Terminaalin%2520optimointi&rootfolder=%252Fsites%252FBalticLoopTUAS%252FJaetut%2520asiakirjat%252FGeneral%252FTerminaalin%2520optimointi
