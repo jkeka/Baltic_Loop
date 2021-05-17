@@ -12,96 +12,96 @@ ffmpeg version N-101030-g129bab5c7e-ge0fd35d867+2 Copyright (c) 2000-2021 the FF
 Splitting the commandline.
 Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
 Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
-Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.GtzMir'.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.ikxagF'.
 Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
-Reading option '-start_number' ... matched as AVOption 'start_number' with argument '31'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '100'.
 Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame%04d.png'.
 Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
 Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
 Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
 Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
 Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
-Reading option 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/turustaPois.mp4' ... matched as output url.
+Reading option 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/Turku_naant_vaihtoeht_ajo.mp4' ... matched as output url.
 Finished splitting the commandline.
 Parsing a group of options: global .
 Applying option v (set logging level) with argument debug.
 Applying option nostdin (enable or disable interaction on standard input) with argument 0.
-Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.GtzMir.
-[file @ 00000246de72dcc0] Setting default whitelist 'file,crypto,data'
+Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.ikxagF.
+[file @ 0000024fbfb8dd80] Setting default whitelist 'file,crypto,data'
 Applying option y (overwrite output files) with argument 1.
 Successfully parsed a group of options.
 Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame%04d.png.
 Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
 Successfully parsed a group of options.
 Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame%04d.png.
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0031.png' for reading
-[file @ 00000246de772ac0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de77ac80] Statistics: 2656321 bytes read, 0 seeks
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0032.png' for reading
-[file @ 00000246de7790c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779240] Statistics: 2656042 bytes read, 0 seeks
-[image2 @ 00000246de76dfc0] Probe buffer size limit of 5000000 bytes reached
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0100.png' for reading
+[file @ 0000024fbfbd2b40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfbdad00] Statistics: 2878218 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0101.png' for reading
+[file @ 0000024fbfbd9180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfbd9300] Statistics: 2878093 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Probe buffer size limit of 5000000 bytes reached
 Input #0, image2, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame%04d.png':
-  Duration: 00:00:01.80, start: 0.000000, bitrate: N/A
+  Duration: 00:00:05.44, start: 0.000000, bitrate: N/A
   Stream #0:0, 2, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
 Successfully opened the file.
-Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/turustaPois.mp4.
+Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/Turku_naant_vaihtoeht_ajo.mp4.
 Applying option profile:v (set profile) with argument baseline.
 Applying option pix_fmt (set pixel format) with argument yuv420p.
 Successfully parsed a group of options.
-Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/turustaPois.mp4.
-[file @ 00000246de772d40] Setting default whitelist 'file,crypto,data'
+Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/Turku_naant_vaihtoeht_ajo.mp4.
+[file @ 0000024fbfbd2e80] Setting default whitelist 'file,crypto,data'
 Successfully opened the file.
 detected 8 logical cores
 Stream mapping:
   Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
     Last message repeated 2 times
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0033.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de7c7f00] Statistics: 2655853 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0102.png' for reading
+[file @ 0000024fbfc3d940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc46f80] Statistics: 2877869 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0034.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de7c7f00] Statistics: 2655772 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0103.png' for reading
+[file @ 0000024fbfc3d940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc45100] Statistics: 2877629 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0035.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de7c7f00] Statistics: 2655667 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0104.png' for reading
+[file @ 0000024fbfc3d940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc45100] Statistics: 2877378 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0036.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de7c7f00] Statistics: 2655600 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0105.png' for reading
+[file @ 0000024fbfc3d940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc45100] Statistics: 2877171 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0037.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de7c7f00] Statistics: 2655713 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0106.png' for reading
+[file @ 0000024fc202a5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc3d940] Statistics: 2876952 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0038.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246e032cc00] Statistics: 2655609 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0107.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc3d940] Statistics: 2876760 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0039.png' for reading
-[file @ 00000246de7c6c80] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246e032cc00] Statistics: 2655534 bytes read, 0 seeks
-[graph 0 input from stream 0:0 @ 00000246de7c6d40] Setting 'video_size' to value '1920x1080'
-[graph 0 input from stream 0:0 @ 00000246de7c6d40] Setting 'pix_fmt' to value '26'
-[graph 0 input from stream 0:0 @ 00000246de7c6d40] Setting 'time_base' to value '1/24'
-[graph 0 input from stream 0:0 @ 00000246de7c6d40] Setting 'pixel_aspect' to value '2834/2834'
-[graph 0 input from stream 0:0 @ 00000246de7c6d40] Setting 'frame_rate' to value '24/1'
-[graph 0 input from stream 0:0 @ 00000246de7c6d40] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
-[format @ 00000246e03011c0] Setting 'pix_fmts' to value 'yuv420p'
-[auto_scaler_0 @ 00000246e0301740] Setting 'flags' to value 'bicubic'
-[auto_scaler_0 @ 00000246e0301740] w:iw h:ih flags:'bicubic' interl:0
-[format @ 00000246e03011c0] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
-[AVFilterGraph @ 00000246de7c6c80] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
-[auto_scaler_0 @ 00000246e0301740] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:yuv420p sar:1/1 flags:0x4
-[libx264 @ 00000246de771980] using mv_range_thread = 40
-[libx264 @ 00000246de771980] using SAR=1/1
-[libx264 @ 00000246de771980] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
-[libx264 @ 00000246de771980] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
-[libx264 @ 00000246de771980] 264 - core 161 r3044 a7e2c6a - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/turustaPois.mp4':
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0108.png' for reading
+[file @ 0000024fc202bec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc3d940] Statistics: 2876574 bytes read, 0 seeks
+[graph 0 input from stream 0:0 @ 0000024fc202bbc0] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 0000024fc202bbc0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 0000024fc202bbc0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 0000024fc202bbc0] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 0000024fc202bbc0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0000024fc202bbc0] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
+[format @ 0000024fc202a6c0] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scaler_0 @ 0000024fc202a5c0] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 0000024fc202a5c0] w:iw h:ih flags:'bicubic' interl:0
+[format @ 0000024fc202a6c0] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 0000024fbfc3d940] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 0000024fc202a5c0] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 0000024fbfbd1b00] using mv_range_thread = 40
+[libx264 @ 0000024fbfbd1b00] using SAR=1/1
+[libx264 @ 0000024fbfbd1b00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000024fbfbd1b00] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000024fbfbd1b00] 264 - core 161 r3044 a7e2c6a - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/Turku_naant_vaihtoeht_ajo.mp4':
   Metadata:
     encoder         : Lavf58.67.100
   Stream #0:0, 0, 1/12288: Video: h264, 1 reference frame (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 24 fps, 12288 tbn
@@ -111,218 +111,597 @@ Output #0, mp4, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turk
       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
 Clipping frame in rate conversion by 0.000008
 frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0040.png' for reading
-[file @ 00000246e03e82c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246e87e0d40] Statistics: 2655422 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0109.png' for reading
+[file @ 0000024fc202b3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc2035bc0] Statistics: 2876315 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0041.png' for reading
-[file @ 00000246e03e8cc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de7dde80] Statistics: 2655220 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0110.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc2035900] Statistics: 2876141 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0042.png' for reading
-[file @ 00000246e03e78c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2655185 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0111.png' for reading
+[file @ 0000024fc202b7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204fbc0] Statistics: 2876016 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0043.png' for reading
-[file @ 00000246e03e81c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654968 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0112.png' for reading
+[file @ 0000024fc202a2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2875814 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0044.png' for reading
-[file @ 00000246e03e93c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2655000 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0113.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2875636 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0045.png' for reading
-[file @ 00000246e03e7dc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654862 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0114.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc47a80] Statistics: 2875372 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0046.png' for reading
-[file @ 00000246e03e92c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654793 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0115.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2875151 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0047.png' for reading
-[file @ 00000246e03e8cc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654635 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0116.png' for reading
+[file @ 0000024fc202a8c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2874795 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0048.png' for reading
-[file @ 00000246e03e8bc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654574 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0117.png' for reading
+[file @ 0000024fc202a4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2874560 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0049.png' for reading
-[file @ 00000246e03e7cc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654508 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0118.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2874255 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0050.png' for reading
-[file @ 00000246e03e8dc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654410 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0119.png' for reading
+[file @ 0000024fc202b0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2873968 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0051.png' for reading
-[file @ 00000246e03e8fc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654315 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0120.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc6885040] Statistics: 2873743 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0052.png' for reading
-[file @ 00000246e03e7ac0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654243 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0121.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc6885040] Statistics: 2873571 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0053.png' for reading
-[file @ 00000246e03e89c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654234 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0122.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2873360 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0054.png' for reading
-[file @ 00000246e03e7ac0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654154 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0123.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2873141 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0055.png' for reading
-[file @ 00000246e03e7ec0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654114 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0124.png' for reading
+[file @ 0000024fc202b2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fbfc2b340] Statistics: 2872869 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0056.png' for reading
-[file @ 00000246e03e83c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654096 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0125.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2872780 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0057.png' for reading
-[file @ 00000246e03e89c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2654080 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0126.png' for reading
+[file @ 0000024fc202b7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2872750 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0058.png' for reading
-[file @ 00000246e03e90c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2653990 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0127.png' for reading
+[file @ 0000024fc202bec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2872604 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0059.png' for reading
-[file @ 00000246e03e8cc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2653939 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0128.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2872386 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0060.png' for reading
-[file @ 00000246e03e8bc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2653775 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0129.png' for reading
+[file @ 0000024fc202b5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2872150 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0061.png' for reading
-[file @ 00000246e03e7dc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2653441 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0130.png' for reading
+[file @ 0000024fc202a0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2871957 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0062.png' for reading
-[file @ 00000246e03e7cc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2653179 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0131.png' for reading
+[file @ 0000024fc202bec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2871699 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0063.png' for reading
-[file @ 00000246e03e90c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2653133 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0132.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2871428 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0064.png' for reading
-[file @ 00000246e03e7ac0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2652826 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0133.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2871159 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0065.png' for reading
-[file @ 00000246e03e80c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2652471 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0134.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2870987 bytes read, 0 seeks
+frame=   27 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0135.png' for reading
+[file @ 0000024fc202adc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2870620 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0066.png' for reading
-[file @ 00000246e03e8bc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2652197 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0136.png' for reading
+[file @ 0000024fc202acc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2870305 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0067.png' for reading
-[file @ 00000246e03e7fc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2652093 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0137.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2870069 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0068.png' for reading
-[file @ 00000246e03e8cc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2651921 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0138.png' for reading
+[file @ 0000024fc202a4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2869801 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0069.png' for reading
-[file @ 00000246e03e7fc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2651598 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0139.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2869603 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0070.png' for reading
-[file @ 00000246e03e87c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2651312 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0140.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2869312 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0071.png' for reading
-[file @ 00000246e03e87c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2651070 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0141.png' for reading
+[file @ 0000024fc202aec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2869119 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0072.png' for reading
-[file @ 00000246e03e7ec0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2650608 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0142.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2868900 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0073.png' for reading
-[file @ 00000246e03e7fc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2650045 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0143.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2868793 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0074.png' for reading
-[file @ 00000246e03e84c0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2649915 bytes read, 0 seeks
-frame=   36 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-[image2 @ 00000246de76dfc0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0075.png' for reading
-[file @ 00000246e03e7bc0] Setting default whitelist 'file,crypto,data'
-[AVIOContext @ 00000246de779040] Statistics: 2649915 bytes read, 0 seeks
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0144.png' for reading
+[file @ 0000024fc202aec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868666 bytes read, 0 seeks
 cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
-    Last message repeated 9 times
-[out_0_0 @ 00000246e03010c0] EOF on sink link out_0_0:default.
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0145.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868726 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0146.png' for reading
+[file @ 0000024fc202adc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868767 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0147.png' for reading
+[file @ 0000024fc202b6c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868723 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0148.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868601 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0149.png' for reading
+[file @ 0000024fc202b3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868479 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0150.png' for reading
+[file @ 0000024fc202a4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868301 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0151.png' for reading
+[file @ 0000024fc202afc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868156 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0152.png' for reading
+[file @ 0000024fc202aec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2868022 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0153.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2867827 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0154.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2867776 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0155.png' for reading
+[file @ 0000024fc202b2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2867776 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0156.png' for reading
+[file @ 0000024fc202b4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2867776 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0157.png' for reading
+[file @ 0000024fc202acc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867776 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0158.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867776 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0159.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867776 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0160.png' for reading
+[file @ 0000024fc202b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867709 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0161.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867590 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   0 QP=18.44 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=499745 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0162.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867587 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   1 QP=19.32 NAL=2 Slice:P Poc:2   I:0    P:421  SKIP:7739 size=2106 bytes
+frame=   55 fps= 48 q=28.0 size=     256kB time=00:00:00.04 bitrate=50242.8kbits/s speed=0.0368x    [image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0163.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867576 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   2 QP=18.82 NAL=2 Slice:P Poc:4   I:0    P:214  SKIP:7946 size=978 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0164.png' for reading
+[file @ 0000024fc202b2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867501 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   3 QP=18.83 NAL=2 Slice:P Poc:6   I:1    P:123  SKIP:8036 size=635 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0165.png' for reading
+[file @ 0000024fc202a8c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867521 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   4 QP=18.40 NAL=2 Slice:P Poc:8   I:1    P:150  SKIP:8009 size=786 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0166.png' for reading
+[file @ 0000024fc202a2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867421 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   5 QP=18.73 NAL=2 Slice:P Poc:10  I:1    P:94   SKIP:8065 size=548 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0167.png' for reading
+[file @ 0000024fc202b5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867284 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   6 QP=18.47 NAL=2 Slice:P Poc:12  I:0    P:77   SKIP:8083 size=424 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0168.png' for reading
+[file @ 0000024fc202b5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867146 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   7 QP=18.71 NAL=2 Slice:P Poc:14  I:0    P:82   SKIP:8078 size=443 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0169.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2867045 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   8 QP=19.02 NAL=2 Slice:P Poc:16  I:0    P:54   SKIP:8106 size=361 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0170.png' for reading
+[file @ 0000024fc202b2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866922 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=   9 QP=18.79 NAL=2 Slice:P Poc:18  I:0    P:44   SKIP:8116 size=351 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0171.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866821 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  10 QP=18.69 NAL=2 Slice:P Poc:20  I:0    P:36   SKIP:8124 size=289 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0172.png' for reading
+[file @ 0000024fc202bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866699 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  11 QP=18.84 NAL=2 Slice:P Poc:22  I:0    P:41   SKIP:8119 size=374 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0173.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866575 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  12 QP=18.90 NAL=2 Slice:P Poc:24  I:0    P:57   SKIP:8103 size=401 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0174.png' for reading
+[file @ 0000024fc202a3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866449 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  13 QP=18.83 NAL=2 Slice:P Poc:26  I:1    P:43   SKIP:8116 size=396 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0175.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866307 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  14 QP=19.10 NAL=2 Slice:P Poc:28  I:0    P:41   SKIP:8119 size=381 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0176.png' for reading
+[file @ 0000024fc202b6c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866190 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  15 QP=18.94 NAL=2 Slice:P Poc:30  I:0    P:38   SKIP:8122 size=284 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0177.png' for reading
+[file @ 0000024fc202adc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866091 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  16 QP=18.77 NAL=2 Slice:P Poc:32  I:1    P:38   SKIP:8121 size=385 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0178.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2866008 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  17 QP=19.23 NAL=2 Slice:P Poc:34  I:1    P:40   SKIP:8119 size=381 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0179.png' for reading
+[file @ 0000024fc202b3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2865959 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  18 QP=19.05 NAL=2 Slice:P Poc:36  I:0    P:47   SKIP:8113 size=416 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0180.png' for reading
+[file @ 0000024fc202b4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865939 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  19 QP=20.71 NAL=2 Slice:P Poc:38  I:0    P:36   SKIP:8124 size=403 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0181.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865929 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  20 QP=19.16 NAL=2 Slice:P Poc:40  I:2    P:28   SKIP:8130 size=370 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0182.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865809 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  21 QP=18.75 NAL=2 Slice:P Poc:42  I:0    P:30   SKIP:8130 size=341 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0183.png' for reading
+[file @ 0000024fc202a4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865789 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  22 QP=18.88 NAL=2 Slice:P Poc:44  I:1    P:49   SKIP:8110 size=413 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0184.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865745 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  23 QP=18.73 NAL=2 Slice:P Poc:46  I:0    P:34   SKIP:8126 size=293 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0185.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865706 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  24 QP=18.58 NAL=2 Slice:P Poc:48  I:2    P:34   SKIP:8124 size=357 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0186.png' for reading
+[file @ 0000024fc202a0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865655 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  25 QP=18.75 NAL=2 Slice:P Poc:50  I:0    P:39   SKIP:8121 size=284 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0187.png' for reading
+[file @ 0000024fc202b3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865609 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  26 QP=18.52 NAL=2 Slice:P Poc:52  I:0    P:50   SKIP:8110 size=296 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0188.png' for reading
+[file @ 0000024fc202b0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865543 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  27 QP=18.61 NAL=2 Slice:P Poc:54  I:1    P:37   SKIP:8122 size=282 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0189.png' for reading
+[file @ 0000024fc202a3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865428 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  28 QP=18.53 NAL=2 Slice:P Poc:56  I:1    P:36   SKIP:8123 size=364 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0190.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865350 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  29 QP=18.40 NAL=2 Slice:P Poc:58  I:1    P:37   SKIP:8122 size=383 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0191.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865212 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  30 QP=18.81 NAL=2 Slice:P Poc:60  I:0    P:40   SKIP:8120 size=332 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0192.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2865126 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  31 QP=18.38 NAL=2 Slice:P Poc:62  I:1    P:40   SKIP:8119 size=386 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0193.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2864898 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  32 QP=18.59 NAL=2 Slice:P Poc:64  I:0    P:42   SKIP:8118 size=411 bytes
+frame=   86 fps= 52 q=28.0 size=     256kB time=00:00:01.33 bitrate=1573.1kbits/s speed=0.806x    [image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0194.png' for reading
+[file @ 0000024fc202b1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2864672 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  33 QP=19.00 NAL=2 Slice:P Poc:66  I:2    P:34   SKIP:8124 size=427 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0195.png' for reading
+[file @ 0000024fc202b2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2864475 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  34 QP=18.88 NAL=2 Slice:P Poc:68  I:1    P:27   SKIP:8132 size=380 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0196.png' for reading
+[file @ 0000024fc202acc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2864262 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  35 QP=18.85 NAL=2 Slice:P Poc:70  I:0    P:25   SKIP:8135 size=276 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0197.png' for reading
+[file @ 0000024fc202afc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2864085 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  36 QP=18.86 NAL=2 Slice:P Poc:72  I:0    P:26   SKIP:8134 size=338 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0198.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2863904 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  37 QP=18.60 NAL=2 Slice:P Poc:74  I:2    P:25   SKIP:8133 size=364 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0199.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2863602 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  38 QP=18.77 NAL=2 Slice:P Poc:76  I:0    P:33   SKIP:8127 size=397 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0200.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2863375 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  39 QP=18.68 NAL=2 Slice:P Poc:78  I:1    P:30   SKIP:8129 size=357 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0201.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2863131 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  40 QP=18.33 NAL=2 Slice:P Poc:80  I:1    P:23   SKIP:8136 size=324 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0202.png' for reading
+[file @ 0000024fc202b0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2862910 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  41 QP=18.81 NAL=2 Slice:P Poc:82  I:0    P:26   SKIP:8134 size=213 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0203.png' for reading
+[file @ 0000024fc202bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2862603 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  42 QP=19.49 NAL=2 Slice:P Poc:84  I:0    P:23   SKIP:8137 size=305 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0204.png' for reading
+[file @ 0000024fc202afc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2862233 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  43 QP=20.33 NAL=2 Slice:P Poc:86  I:0    P:16   SKIP:8144 size=196 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0205.png' for reading
+[file @ 0000024fc202a2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861963 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  44 QP=19.06 NAL=2 Slice:P Poc:88  I:0    P:20   SKIP:8140 size=228 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0206.png' for reading
+[file @ 0000024fc202b3c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861800 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  45 QP=19.16 NAL=2 Slice:P Poc:90  I:0    P:17   SKIP:8143 size=235 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0207.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861600 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  46 QP=19.27 NAL=2 Slice:P Poc:92  I:0    P:17   SKIP:8143 size=170 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0208.png' for reading
+[file @ 0000024fc202acc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861437 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  47 QP=19.29 NAL=2 Slice:P Poc:94  I:0    P:16   SKIP:8144 size=151 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0209.png' for reading
+[file @ 0000024fc202bec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861355 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  48 QP=19.03 NAL=2 Slice:P Poc:96  I:1    P:16   SKIP:8143 size=228 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0210.png' for reading
+[file @ 0000024fc202b7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861254 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  49 QP=19.40 NAL=2 Slice:P Poc:98  I:0    P:17   SKIP:8143 size=184 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0211.png' for reading
+[file @ 0000024fc202b0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861273 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  50 QP=19.30 NAL=2 Slice:P Poc:100 I:1    P:16   SKIP:8143 size=318 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0212.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861265 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  51 QP=18.60 NAL=2 Slice:P Poc:102 I:0    P:25   SKIP:8135 size=300 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0213.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861227 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  52 QP=18.45 NAL=2 Slice:P Poc:104 I:0    P:25   SKIP:8135 size=196 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0214.png' for reading
+[file @ 0000024fc202a4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861264 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  53 QP=18.55 NAL=2 Slice:P Poc:106 I:1    P:28   SKIP:8131 size=303 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0215.png' for reading
+[file @ 0000024fc202bdc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861177 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  54 QP=18.54 NAL=2 Slice:P Poc:108 I:0    P:22   SKIP:8138 size=138 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0216.png' for reading
+[file @ 0000024fc202a1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861195 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  55 QP=18.54 NAL=2 Slice:P Poc:110 I:0    P:20   SKIP:8140 size=83 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0217.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861179 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  56 QP=18.54 NAL=2 Slice:P Poc:112 I:0    P:19   SKIP:8141 size=79 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0218.png' for reading
+[file @ 0000024fc202b5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861192 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  57 QP=18.54 NAL=2 Slice:P Poc:114 I:0    P:19   SKIP:8141 size=79 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0219.png' for reading
+[file @ 0000024fc202b6c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861185 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  58 QP=18.54 NAL=2 Slice:P Poc:116 I:0    P:19   SKIP:8141 size=79 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0220.png' for reading
+[file @ 0000024fc202b4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861143 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  59 QP=18.54 NAL=2 Slice:P Poc:118 I:0    P:19   SKIP:8141 size=79 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0221.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861135 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  60 QP=18.46 NAL=2 Slice:P Poc:120 I:1    P:23   SKIP:8136 size=243 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0222.png' for reading
+[file @ 0000024fc202a2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2861011 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  61 QP=18.74 NAL=2 Slice:P Poc:122 I:0    P:29   SKIP:8131 size=336 bytes
+frame=  115 fps= 53 q=28.0 size=     256kB time=00:00:02.54 bitrate= 825.2kbits/s speed=1.17x    [image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0223.png' for reading
+[file @ 0000024fc202b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2860864 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  62 QP=18.86 NAL=2 Slice:P Poc:124 I:0    P:22   SKIP:8138 size=220 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0224.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2860670 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  63 QP=18.74 NAL=2 Slice:P Poc:126 I:0    P:16   SKIP:8144 size=140 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0225.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2860447 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  64 QP=19.15 NAL=2 Slice:P Poc:128 I:0    P:18   SKIP:8142 size=245 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0226.png' for reading
+[file @ 0000024fc202aec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2860170 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  65 QP=18.81 NAL=2 Slice:P Poc:130 I:0    P:16   SKIP:8144 size=151 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0227.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2859885 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  66 QP=19.15 NAL=2 Slice:P Poc:132 I:0    P:19   SKIP:8141 size=184 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0228.png' for reading
+[file @ 0000024fc202abc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2859627 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  67 QP=18.94 NAL=2 Slice:P Poc:134 I:0    P:19   SKIP:8141 size=265 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0229.png' for reading
+[file @ 0000024fc202bec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2859360 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  68 QP=18.73 NAL=2 Slice:P Poc:136 I:0    P:28   SKIP:8132 size=314 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0230.png' for reading
+[file @ 0000024fc202b7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2859135 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  69 QP=18.64 NAL=2 Slice:P Poc:138 I:1    P:25   SKIP:8134 size=374 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0231.png' for reading
+[file @ 0000024fc202adc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2858993 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  70 QP=18.69 NAL=2 Slice:P Poc:140 I:0    P:29   SKIP:8131 size=308 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0232.png' for reading
+[file @ 0000024fc202a0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2858899 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  71 QP=18.63 NAL=2 Slice:P Poc:142 I:0    P:25   SKIP:8135 size=252 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0233.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc689ee40] Statistics: 2858828 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  72 QP=18.61 NAL=2 Slice:P Poc:144 I:0    P:23   SKIP:8137 size=295 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0234.png' for reading
+[file @ 0000024fc202a7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2858693 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  73 QP=18.63 NAL=2 Slice:P Poc:146 I:0    P:29   SKIP:8131 size=262 bytes
+[image2 @ 0000024fbfbce040] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame0235.png' for reading
+[file @ 0000024fc202a2c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000024fc204ffc0] Statistics: 2858327 bytes read, 0 seeks
+[libx264 @ 0000024fbfbd1b00] frame=  74 QP=18.74 NAL=2 Slice:P Poc:148 I:0    P:23   SKIP:8137 size=223 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  75 QP=18.89 NAL=2 Slice:P Poc:150 I:0    P:33   SKIP:8127 size=389 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  76 QP=18.87 NAL=2 Slice:P Poc:152 I:0    P:24   SKIP:8136 size=256 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  77 QP=18.95 NAL=2 Slice:P Poc:154 I:0    P:26   SKIP:8134 size=280 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  78 QP=18.84 NAL=2 Slice:P Poc:156 I:0    P:26   SKIP:8134 size=266 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  79 QP=18.90 NAL=2 Slice:P Poc:158 I:0    P:29   SKIP:8131 size=268 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  80 QP=19.04 NAL=2 Slice:P Poc:160 I:1    P:28   SKIP:8131 size=330 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  81 QP=19.09 NAL=2 Slice:P Poc:162 I:0    P:23   SKIP:8137 size=231 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  82 QP=19.49 NAL=2 Slice:P Poc:164 I:0    P:24   SKIP:8136 size=258 bytes
+[out_0_0 @ 0000024fc202bcc0] EOF on sink link out_0_0:default.
 No more output streams to write to, finishing.
-[libx264 @ 00000246de771980] frame=   0 QP=18.05 NAL=3 Slice:I Poc:0   I:8160 P:0    SKIP:0    size=562760 bytes
-[libx264 @ 00000246de771980] frame=   1 QP=19.49 NAL=2 Slice:P Poc:2   I:2    P:360  SKIP:7798 size=2049 bytes
-[libx264 @ 00000246de771980] frame=   2 QP=18.96 NAL=2 Slice:P Poc:4   I:2    P:228  SKIP:7930 size=1181 bytes
-[libx264 @ 00000246de771980] frame=   3 QP=18.79 NAL=2 Slice:P Poc:6   I:2    P:165  SKIP:7993 size=822 bytes
-[libx264 @ 00000246de771980] frame=   4 QP=18.96 NAL=2 Slice:P Poc:8   I:2    P:136  SKIP:8022 size=717 bytes
-[libx264 @ 00000246de771980] frame=   5 QP=18.99 NAL=2 Slice:P Poc:10  I:2    P:103  SKIP:8055 size=592 bytes
-[libx264 @ 00000246de771980] frame=   6 QP=18.91 NAL=2 Slice:P Poc:12  I:1    P:90   SKIP:8069 size=552 bytes
-[libx264 @ 00000246de771980] frame=   7 QP=18.90 NAL=2 Slice:P Poc:14  I:1    P:93   SKIP:8066 size=574 bytes
-[libx264 @ 00000246de771980] frame=   8 QP=18.78 NAL=2 Slice:P Poc:16  I:0    P:109  SKIP:8051 size=597 bytes
-[libx264 @ 00000246de771980] frame=   9 QP=18.81 NAL=2 Slice:P Poc:18  I:0    P:98   SKIP:8062 size=497 bytes
-[libx264 @ 00000246de771980] frame=  10 QP=18.59 NAL=2 Slice:P Poc:20  I:0    P:114  SKIP:8046 size=686 bytes
-[libx264 @ 00000246de771980] frame=  11 QP=19.40 NAL=2 Slice:P Poc:22  I:0    P:62   SKIP:8098 size=367 bytes
-[libx264 @ 00000246de771980] frame=  12 QP=19.48 NAL=2 Slice:P Poc:24  I:1    P:32   SKIP:8127 size=352 bytes
-[libx264 @ 00000246de771980] frame=  13 QP=19.05 NAL=2 Slice:P Poc:26  I:0    P:74   SKIP:8086 size=438 bytes
-[libx264 @ 00000246de771980] frame=  14 QP=18.93 NAL=2 Slice:P Poc:28  I:0    P:57   SKIP:8103 size=384 bytes
-[libx264 @ 00000246de771980] frame=  15 QP=18.97 NAL=2 Slice:P Poc:30  I:0    P:51   SKIP:8109 size=353 bytes
-[libx264 @ 00000246de771980] frame=  16 QP=19.31 NAL=2 Slice:P Poc:32  I:0    P:48   SKIP:8112 size=410 bytes
-[libx264 @ 00000246de771980] frame=  17 QP=19.44 NAL=2 Slice:P Poc:34  I:0    P:37   SKIP:8123 size=300 bytes
-[libx264 @ 00000246de771980] frame=  18 QP=19.54 NAL=2 Slice:P Poc:36  I:1    P:30   SKIP:8129 size=287 bytes
-[libx264 @ 00000246de771980] frame=  19 QP=19.60 NAL=2 Slice:P Poc:38  I:0    P:27   SKIP:8133 size=285 bytes
-[libx264 @ 00000246de771980] frame=  20 QP=19.14 NAL=2 Slice:P Poc:40  I:1    P:30   SKIP:8129 size=268 bytes
-[libx264 @ 00000246de771980] frame=  21 QP=19.48 NAL=2 Slice:P Poc:42  I:1    P:19   SKIP:8140 size=203 bytes
-[libx264 @ 00000246de771980] frame=  22 QP=19.33 NAL=2 Slice:P Poc:44  I:1    P:10   SKIP:8149 size=170 bytes
-[libx264 @ 00000246de771980] frame=  23 QP=19.72 NAL=2 Slice:P Poc:46  I:2    P:17   SKIP:8141 size=199 bytes
-[libx264 @ 00000246de771980] frame=  24 QP=19.89 NAL=2 Slice:P Poc:48  I:0    P:13   SKIP:8147 size=157 bytes
-[libx264 @ 00000246de771980] frame=  25 QP=19.59 NAL=2 Slice:P Poc:50  I:2    P:23   SKIP:8135 size=317 bytes
-[libx264 @ 00000246de771980] frame=  26 QP=19.58 NAL=2 Slice:P Poc:52  I:1    P:18   SKIP:8141 size=297 bytes
-[libx264 @ 00000246de771980] frame=  27 QP=21.19 NAL=2 Slice:P Poc:54  I:0    P:19   SKIP:8141 size=240 bytes
-[libx264 @ 00000246de771980] frame=  28 QP=20.79 NAL=2 Slice:P Poc:56  I:0    P:13   SKIP:8147 size=240 bytes
-[libx264 @ 00000246de771980] frame=  29 QP=20.82 NAL=2 Slice:P Poc:58  I:1    P:10   SKIP:8149 size=249 bytes
-[libx264 @ 00000246de771980] frame=  30 QP=20.51 NAL=2 Slice:P Poc:60  I:0    P:10   SKIP:8150 size=280 bytes
-[libx264 @ 00000246de771980] frame=  31 QP=21.25 NAL=2 Slice:P Poc:62  I:1    P:6    SKIP:8153 size=258 bytes
-[libx264 @ 00000246de771980] frame=  32 QP=23.24 NAL=2 Slice:P Poc:64  I:2    P:7    SKIP:8151 size=297 bytes
-[libx264 @ 00000246de771980] frame=  33 QP=22.90 NAL=2 Slice:P Poc:66  I:2    P:4    SKIP:8154 size=246 bytes
-[libx264 @ 00000246de771980] frame=  34 QP=26.06 NAL=2 Slice:P Poc:68  I:1    P:4    SKIP:8155 size=286 bytes
-[libx264 @ 00000246de771980] frame=  35 QP=26.07 NAL=2 Slice:P Poc:70  I:1    P:7    SKIP:8152 size=314 bytes
-[libx264 @ 00000246de771980] frame=  36 QP=28.41 NAL=2 Slice:P Poc:72  I:0    P:5    SKIP:8155 size=204 bytes
-[libx264 @ 00000246de771980] frame=  37 QP=28.10 NAL=2 Slice:P Poc:74  I:0    P:4    SKIP:8156 size=162 bytes
-[libx264 @ 00000246de771980] frame=  38 QP=24.86 NAL=2 Slice:P Poc:76  I:1    P:4    SKIP:8155 size=224 bytes
-[libx264 @ 00000246de771980] frame=  39 QP=27.49 NAL=2 Slice:P Poc:78  I:1    P:4    SKIP:8155 size=248 bytes
-[libx264 @ 00000246de771980] frame=  40 QP=27.15 NAL=2 Slice:P Poc:80  I:0    P:4    SKIP:8156 size=161 bytes
-[libx264 @ 00000246de771980] frame=  41 QP=25.47 NAL=2 Slice:P Poc:82  I:1    P:3    SKIP:8156 size=183 bytes
-[libx264 @ 00000246de771980] frame=  42 QP=26.76 NAL=2 Slice:P Poc:84  I:0    P:7    SKIP:8153 size=243 bytes
-[libx264 @ 00000246de771980] frame=  43 QP=25.51 NAL=2 Slice:P Poc:86  I:2    P:2    SKIP:8156 size=164 bytes
-[libx264 @ 00000246de771980] frame=  44 QP=13.00 NAL=2 Slice:P Poc:88  I:0    P:0    SKIP:8160 size=12 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  83 QP=19.02 NAL=2 Slice:P Poc:166 I:0    P:25   SKIP:8135 size=207 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  84 QP=19.55 NAL=2 Slice:P Poc:168 I:0    P:24   SKIP:8136 size=257 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  85 QP=19.52 NAL=2 Slice:P Poc:170 I:0    P:23   SKIP:8137 size=209 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  86 QP=19.47 NAL=2 Slice:P Poc:172 I:1    P:23   SKIP:8136 size=263 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  87 QP=19.55 NAL=2 Slice:P Poc:174 I:0    P:23   SKIP:8137 size=221 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  88 QP=19.54 NAL=2 Slice:P Poc:176 I:0    P:26   SKIP:8134 size=351 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  89 QP=19.44 NAL=2 Slice:P Poc:178 I:1    P:23   SKIP:8136 size=268 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  90 QP=19.34 NAL=2 Slice:P Poc:180 I:0    P:26   SKIP:8134 size=241 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  91 QP=19.26 NAL=2 Slice:P Poc:182 I:0    P:26   SKIP:8134 size=269 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  92 QP=19.00 NAL=2 Slice:P Poc:184 I:0    P:27   SKIP:8133 size=311 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  93 QP=18.83 NAL=2 Slice:P Poc:186 I:1    P:26   SKIP:8133 size=347 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  94 QP=19.10 NAL=2 Slice:P Poc:188 I:0    P:27   SKIP:8133 size=442 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  95 QP=19.05 NAL=2 Slice:P Poc:190 I:0    P:27   SKIP:8133 size=271 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  96 QP=19.61 NAL=2 Slice:P Poc:192 I:0    P:55   SKIP:8105 size=448 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  97 QP=19.17 NAL=2 Slice:P Poc:194 I:0    P:152  SKIP:8008 size=763 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  98 QP=18.87 NAL=2 Slice:P Poc:196 I:0    P:79   SKIP:8081 size=466 bytes
+[libx264 @ 0000024fbfbd1b00] frame=  99 QP=19.06 NAL=2 Slice:P Poc:198 I:0    P:71   SKIP:8089 size=481 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 100 QP=19.67 NAL=2 Slice:P Poc:200 I:0    P:82   SKIP:8078 size=572 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 101 QP=19.90 NAL=2 Slice:P Poc:202 I:0    P:74   SKIP:8086 size=543 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 102 QP=19.63 NAL=2 Slice:P Poc:204 I:0    P:62   SKIP:8098 size=466 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 103 QP=19.46 NAL=2 Slice:P Poc:206 I:0    P:61   SKIP:8099 size=421 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 104 QP=19.27 NAL=2 Slice:P Poc:208 I:0    P:59   SKIP:8101 size=399 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 105 QP=18.91 NAL=2 Slice:P Poc:210 I:0    P:61   SKIP:8099 size=470 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 106 QP=19.94 NAL=2 Slice:P Poc:212 I:0    P:59   SKIP:8101 size=509 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 107 QP=19.90 NAL=2 Slice:P Poc:214 I:0    P:53   SKIP:8107 size=447 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 108 QP=19.46 NAL=2 Slice:P Poc:216 I:0    P:49   SKIP:8111 size=472 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 109 QP=19.66 NAL=2 Slice:P Poc:218 I:0    P:45   SKIP:8115 size=431 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 110 QP=19.90 NAL=2 Slice:P Poc:220 I:0    P:24   SKIP:8136 size=317 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 111 QP=19.67 NAL=2 Slice:P Poc:222 I:2    P:25   SKIP:8133 size=289 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 112 QP=20.01 NAL=2 Slice:P Poc:224 I:3    P:17   SKIP:8140 size=313 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 113 QP=20.34 NAL=2 Slice:P Poc:226 I:0    P:14   SKIP:8146 size=246 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 114 QP=20.64 NAL=2 Slice:P Poc:228 I:0    P:15   SKIP:8145 size=264 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 115 QP=20.69 NAL=2 Slice:P Poc:230 I:2    P:14   SKIP:8144 size=347 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 116 QP=20.40 NAL=2 Slice:P Poc:232 I:2    P:15   SKIP:8143 size=244 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 117 QP=20.25 NAL=2 Slice:P Poc:234 I:1    P:36   SKIP:8123 size=285 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 118 QP=20.00 NAL=2 Slice:P Poc:236 I:2    P:31   SKIP:8127 size=322 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 119 QP=19.71 NAL=2 Slice:P Poc:238 I:3    P:32   SKIP:8125 size=350 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 120 QP=20.65 NAL=2 Slice:P Poc:240 I:2    P:22   SKIP:8136 size=273 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 121 QP=20.65 NAL=2 Slice:P Poc:242 I:0    P:24   SKIP:8136 size=279 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 122 QP=21.54 NAL=2 Slice:P Poc:244 I:0    P:16   SKIP:8144 size=258 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 123 QP=21.03 NAL=2 Slice:P Poc:246 I:0    P:15   SKIP:8145 size=286 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 124 QP=21.20 NAL=2 Slice:P Poc:248 I:0    P:14   SKIP:8146 size=277 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 125 QP=21.15 NAL=2 Slice:P Poc:250 I:0    P:13   SKIP:8147 size=319 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 126 QP=21.14 NAL=2 Slice:P Poc:252 I:0    P:15   SKIP:8145 size=328 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 127 QP=23.62 NAL=2 Slice:P Poc:254 I:0    P:9    SKIP:8151 size=223 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 128 QP=21.73 NAL=2 Slice:P Poc:256 I:0    P:9    SKIP:8151 size=227 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 129 QP=24.43 NAL=2 Slice:P Poc:258 I:0    P:8    SKIP:8152 size=189 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 130 QP=25.67 NAL=2 Slice:P Poc:260 I:1    P:6    SKIP:8153 size=197 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 131 QP=22.07 NAL=2 Slice:P Poc:262 I:2    P:8    SKIP:8150 size=336 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 132 QP=26.87 NAL=2 Slice:P Poc:264 I:0    P:8    SKIP:8152 size=243 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 133 QP=27.49 NAL=2 Slice:P Poc:266 I:0    P:6    SKIP:8154 size=179 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 134 QP=28.76 NAL=2 Slice:P Poc:268 I:0    P:4    SKIP:8156 size=128 bytes
+[libx264 @ 0000024fbfbd1b00] frame= 135 QP=30.11 NAL=2 Slice:P Poc:270 I:0    P:5    SKIP:8155 size=101 bytes
 Not writing 'clli' atom. No content light level info.
 Not writing 'mdcv' atom. Missing mastering metadata.
-frame=   45 fps=0.0 q=-1.0 Lsize=     568kB time=00:00:01.83 bitrate=2537.3kbits/s speed=1.85x    
-[AVIOContext @ 00000246de76de00] Statistics: 0 seeks, 3 writeouts
-video:567kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.178481%
+frame=  136 fps= 51 q=-1.0 Lsize=     534kB time=00:00:05.62 bitrate= 777.2kbits/s speed=2.09x    
+[AVIOContext @ 0000024fbfbcdec0] Statistics: 0 seeks, 6 writeouts
+video:532kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.256829%
 Input file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/frame%04d.png):
-  Input stream #0:0 (video): 45 packets read (119422352 bytes); 45 frames decoded; 
-  Total: 45 packets (119422352 bytes) demuxed
-Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/turustaPois.mp4):
-  Output stream #0:0 (video): 45 frames encoded; 45 packets muxed (580454 bytes); 
-  Total: 45 packets (580454 bytes) muxed
-45 frames successfully decoded, 0 decoding errors
-[AVIOContext @ 00000246de772ec0] Statistics: 2 seeks, 6 writeouts
-[libx264 @ 00000246de771980] frame I:1     Avg QP:18.05  size:562760
-[libx264 @ 00000246de771980] frame P:44    Avg QP:21.12  size:   388
-[libx264 @ 00000246de771980] mb I  I16..4: 19.1%  0.0% 80.9%
-[libx264 @ 00000246de771980] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.6%  0.0%  0.0%  0.0%  0.0%    skip:99.4%
-[libx264 @ 00000246de771980] coded y,uvDC,uvAC intra: 72.6% 83.2% 81.7% inter: 0.0% 0.5% 0.0%
-[libx264 @ 00000246de771980] i16 v,h,dc,p: 63% 17% 18%  3%
-[libx264 @ 00000246de771980] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 18% 14%  7%  8%  8%  7%  7%  8%
-[libx264 @ 00000246de771980] i8c dc,h,v,p: 57% 20% 14%  9%
-[libx264 @ 00000246de771980] ref P L0: 84.4% 10.5%  5.0%
-[libx264 @ 00000246de771980] kb/s:2473.92
+  Input stream #0:0 (video): 136 packets read (389961641 bytes); 136 frames decoded; 
+  Total: 136 packets (389961641 bytes) demuxed
+Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Turku/Turku_naant_vaihtoeht_ajo.mp4):
+  Output stream #0:0 (video): 136 frames encoded; 136 packets muxed (545110 bytes); 
+  Total: 136 packets (545110 bytes) muxed
+136 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0000024fbfbd3000] Statistics: 2 seeks, 6 writeouts
+[libx264 @ 0000024fbfbd1b00] frame I:1     Avg QP:18.44  size:499745
+[libx264 @ 0000024fbfbd1b00] frame P:135   Avg QP:19.62  size:   331
+[libx264 @ 0000024fbfbd1b00] mb I  I16..4:  7.1%  0.0% 92.9%
+[libx264 @ 0000024fbfbd1b00] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.4%  0.0%  0.0%  0.0%  0.0%    skip:99.5%
+[libx264 @ 0000024fbfbd1b00] coded y,uvDC,uvAC intra: 81.3% 94.2% 92.3% inter: 0.0% 0.4% 0.1%
+[libx264 @ 0000024fbfbd1b00] i16 v,h,dc,p: 73% 17%  9%  1%
+[libx264 @ 0000024fbfbd1b00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 18% 11%  8%  8%  9%  7%  7%  9%
+[libx264 @ 0000024fbfbd1b00] i8c dc,h,v,p: 55% 19% 15% 10%
+[libx264 @ 0000024fbfbd1b00] ref P L0: 87.1%  8.2%  4.7%
+[libx264 @ 0000024fbfbd1b00] kb/s:768.68
