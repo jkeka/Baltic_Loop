@@ -1,0 +1,154 @@
+ffmpeg version N-101030-g129bab5c7e-ge0fd35d867+2 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration:  --pkg-config=pkgconf --cc='ccache gcc' --cxx='ccache g++' --disable-autodetect --enable-amf --enable-bzlib --enable-cuda --enable-cuvid --enable-d3d11va --enable-dxva2 --enable-iconv --enable-lzma --enable-nvenc --enable-zlib --enable-sdl2 --enable-ffnvcodec --enable-nvdec --enable-cuda-llvm --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libdav1d --enable-libaom --disable-debug --enable-fontconfig --enable-libass --enable-libbluray --enable-libfreetype --enable-libmfx --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-amrwbenc --enable-libwebp --enable-libxml2 --enable-libzimg --enable-libshine --enable-gpl --enable-avisynth --enable-libxvid --enable-libopenmpt --enable-version3 --enable-libsrt --enable-libgsm --enable-libvmaf --enable-libsvtav1 --enable-librtmp --enable-mbedtls --extra-cflags=-DLIBTWOLAME_STATIC --extra-libs=-lstdc++ --extra-cflags=-DLIBXML_STATIC --extra-libs=-liconv --disable-w32threads
+  libavutil      56. 64.100 / 56. 64.100
+  libavcodec     58.122.100 / 58.122.100
+  libavformat    58. 67.100 / 58. 67.100
+  libavdevice    58. 11.103 / 58. 11.103
+  libavfilter     7.103.100 /  7.103.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.ZzUHvd'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/porvppMotariNuolet.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.ZzUHvd.
+[file @ 0000021918e3db00] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame%04d.png.
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0000.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e8ab80] Statistics: 56390 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0001.png' for reading
+[file @ 0000021918e8ab40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e98b40] Statistics: 56412 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0002.png' for reading
+[file @ 0000021918e8ab40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e829c0] Statistics: 57043 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0003.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e82ac0] Statistics: 57040 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0004.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e82d00] Statistics: 57045 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0005.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e82ec0] Statistics: 57504 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0006.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e83080] Statistics: 57475 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0007.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e83240] Statistics: 57455 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0008.png' for reading
+[file @ 0000021918e829c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021918e84400] Statistics: 57742 bytes read, 0 seeks
+[image2 @ 0000021918e7df00] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame0009.png' for reading
+[file @ 0000021918e84400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002191b3fad00] Statistics: 57599 bytes read, 0 seeks
+Input #0, image2, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame%04d.png':
+  Duration: 00:00:00.40, start: 0.000000, bitrate: N/A
+  Stream #0:0, 10, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/palette.png.
+[NULL @ 0000021918e818c0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/palette.png' for reading
+[file @ 000002191b3fad00] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 0000021918e818c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 0000021918e818c0] Before avformat_find_stream_info() pos: 0 bytes read:222 seeks:0 nb_streams:1
+[png_pipe @ 0000021918e818c0] After avformat_find_stream_info() pos: 222 bytes read:222 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/palette.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/porvppMotariNuolet.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/porvppMotariNuolet.gif.
+[file @ 0000021918ef0e00] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000021918e7df00] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 9 times
+[graph 0 input from stream 0:0 @ 000002191b48da40] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 000002191b48da40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002191b48da40] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000002191b48da40] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 000002191b48da40] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000002191b48da40] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
+[graph 0 input from stream 1:0 @ 000002191b48db40] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000002191b48db40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000002191b48db40] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000002191b48db40] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000002191b48db40] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000002191b48db40] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 0000021918efb4c0] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 0000021918efb940] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 0000021918e8ab00] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000002191b4c3d40] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 0000021918e8ab00] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000002191b40a2c0] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000002191b588300] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0000021918efb940] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000002191b5a7ac0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000002191b4c3d40] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 0000021918e8ab00] [framesync @ 000002191b505908] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 0000021918e8ab00] [framesync @ 000002191b505908] Sync level 2
+Output #0, gif, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/porvppMotariNuolet.gif':
+  Metadata:
+    encoder         : Lavf58.67.100
+  Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8(pc, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn (default)
+    Metadata:
+      encoder         : Lavc58.122.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 0000021918ef0100] 361x595 image at pos (428;122) [area:1920x1080]
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.457x    [gif @ 0000021918ef0100] 333x561 image at pos (443;134) [area:1920x1080]
+[gif @ 0000021918ef0100] 302x534 image at pos (456;144) [area:1920x1080]
+[gif @ 0000021918ef0100] 275x504 image at pos (467;158) [area:1920x1080]
+[gif @ 0000021918ef0100] 250x473 image at pos (475;177) [area:1920x1080]
+[gif @ 0000021918ef0100] 226x445 image at pos (483;193) [area:1920x1080]
+[gif @ 0000021918ef0100] 198x412 image at pos (498;208) [area:1920x1080]
+[gif @ 0000021918ef0100] 180x376 image at pos (495;228) [area:1920x1080]
+[gif @ 0000021918ef0100] 174x349 image at pos (487;237) [area:1920x1080]
+[gif @ 0000021918ef0100] 206x317 image at pos (466;253) [area:1920x1080]
+[Parsed_paletteuse_0 @ 0000021918e8ab00] [framesync @ 000002191b505908] Sync level 0
+[out_0_0 @ 0000021918efb3c0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   10 fps=0.0 q=-0.0 Lsize=      32kB time=00:00:00.39 bitrate= 671.4kbits/s speed=0.81x    
+[AVIOContext @ 0000021918e7dc40] Statistics: 0 seeks, 2 writeouts
+video:32kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.061142%
+Input file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/frame%04d.png):
+  Input stream #0:0 (video): 10 packets read (571705 bytes); 10 frames decoded; 
+  Total: 10 packets (571705 bytes) demuxed
+Input file #1 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/palette.png):
+  Input stream #1:0 (video): 1 packets read (222 bytes); 1 frames decoded; 
+  Total: 1 packets (222 bytes) demuxed
+Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Porvoo/porvppMotariNuolet.gif):
+  Output stream #0:0 (video): 10 frames encoded; 10 packets muxed (32711 bytes); 
+  Total: 10 packets (32711 bytes) muxed
+11 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0000021918ef0f40] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 0000021918e81f00] Statistics: 222 bytes read, 0 seeks
