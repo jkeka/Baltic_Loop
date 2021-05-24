@@ -1,0 +1,247 @@
+ffmpeg version N-101030-g129bab5c7e-ge0fd35d867+2 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration:  --pkg-config=pkgconf --cc='ccache gcc' --cxx='ccache g++' --disable-autodetect --enable-amf --enable-bzlib --enable-cuda --enable-cuvid --enable-d3d11va --enable-dxva2 --enable-iconv --enable-lzma --enable-nvenc --enable-zlib --enable-sdl2 --enable-ffnvcodec --enable-nvdec --enable-cuda-llvm --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libdav1d --enable-libaom --disable-debug --enable-fontconfig --enable-libass --enable-libbluray --enable-libfreetype --enable-libmfx --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-amrwbenc --enable-libwebp --enable-libxml2 --enable-libzimg --enable-libshine --enable-gpl --enable-avisynth --enable-libxvid --enable-libopenmpt --enable-version3 --enable-libsrt --enable-libgsm --enable-libvmaf --enable-libsvtav1 --enable-librtmp --enable-mbedtls --extra-cflags=-DLIBTWOLAME_STATIC --extra-libs=-lstdc++ --extra-cflags=-DLIBXML_STATIC --extra-libs=-liconv --disable-w32threads
+  libavutil      56. 64.100 / 56. 64.100
+  libavcodec     58.122.100 / 58.122.100
+  libavformat    58. 67.100 / 58. 67.100
+  libavdevice    58. 11.103 / 58. 11.103
+  libavfilter     7.103.100 /  7.103.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.KXtBjn'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/keha3Safety.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.KXtBjn.
+[file @ 00000222a657db00] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame%04d.png.
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0000.png' for reading
+[file @ 00000222a65c2980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65cab80] Statistics: 40047 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0001.png' for reading
+[file @ 00000222a65d4b40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d4cc0] Statistics: 42832 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0002.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65eca00] Statistics: 45737 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0003.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65f7f00] Statistics: 49070 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0004.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d4f80] Statistics: 51384 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0005.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d5140] Statistics: 54356 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0006.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d5300] Statistics: 57251 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0007.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d54c0] Statistics: 59841 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0008.png' for reading
+[file @ 00000222a65d4c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6680] Statistics: 63079 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0009.png' for reading
+[file @ 00000222a65d6680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6780] Statistics: 66016 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0010.png' for reading
+[file @ 00000222a65d6680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6780] Statistics: 67835 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0011.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 71429 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0012.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 73528 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0013.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 75558 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0014.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 78047 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0015.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 80302 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0016.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 80350 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0017.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 77312 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0018.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 74474 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0019.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 71265 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0020.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 69064 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0021.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 66357 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0022.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 64588 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0023.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 61528 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0024.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 59513 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0025.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 56194 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0026.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 54319 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0027.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 52035 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0028.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 48819 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0029.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 46048 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0030.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 43266 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0031.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 40014 bytes read, 0 seeks
+[image2 @ 00000222a65bdec0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame0032.png' for reading
+[file @ 00000222a65d6740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222a65d6840] Statistics: 36713 bytes read, 0 seeks
+Input #0, image2, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame%04d.png':
+  Duration: 00:00:01.32, start: 0.000000, bitrate: N/A
+  Stream #0:0, 33, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/palette.png.
+[NULL @ 00000222a65e97c0] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/palette.png' for reading
+[file @ 00000222a65ca9c0] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 00000222a65e97c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 00000222a65e97c0] Before avformat_find_stream_info() pos: 0 bytes read:445 seeks:0 nb_streams:1
+[png_pipe @ 00000222a65e97c0] After avformat_find_stream_info() pos: 445 bytes read:445 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/palette.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/keha3Safety.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/keha3Safety.gif.
+[file @ 00000222a663ee00] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 466 times
+[image2 @ 00000222a65bdec0] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 00000222a6a14f40] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 00000222a6a14f40] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000222a6a14f40] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 00000222a6a14f40] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 00000222a6a14f40] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 00000222a6a14f40] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
+[graph 0 input from stream 1:0 @ 00000222a65ded00] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000222a65ded00] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000222a65ded00] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000222a65ded00] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000222a65ded00] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000222a65ded00] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 00000222a65d4a40] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 00000222a6af5940] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000222a6a14d80] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 00000222a73b8980] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000222a6a14d80] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 00000222a65eb840] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 00000222a6af6000] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 00000222a6af5940] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 00000222a6b1f300] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 00000222a73b8980] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 00000222a6a14d80] [framesync @ 00000222a6a52f08] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 00000222a6a14d80] [framesync @ 00000222a6a52f08] Sync level 2
+Output #0, gif, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/keha3Safety.gif':
+  Metadata:
+    encoder         : Lavf58.67.100
+  Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8(pc, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn (default)
+    Metadata:
+      encoder         : Lavc58.122.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000222a663e880] 1626x347 image at pos (82;566) [area:1920x1080]
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.633x    [gif @ 00000222a663e880] 159x181 image at pos (83;732) [area:1920x1080]
+[gif @ 00000222a663e880] 247x267 image at pos (83;646) [area:1920x1080]
+[gif @ 00000222a663e880] 306x351 image at pos (83;562) [area:1920x1080]
+[gif @ 00000222a663e880] 373x431 image at pos (83;482) [area:1920x1080]
+[gif @ 00000222a663e880] 463x476 image at pos (83;437) [area:1920x1080]
+[gif @ 00000222a663e880] 551x501 image at pos (83;412) [area:1920x1080]
+[gif @ 00000222a663e880] 667x564 image at pos (83;349) [area:1920x1080]
+[gif @ 00000222a663e880] 742x633 image at pos (83;280) [area:1920x1080]
+[gif @ 00000222a663e880] 853x675 image at pos (83;238) [area:1920x1080]
+[gif @ 00000222a663e880] 972x675 image at pos (83;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1125x675 image at pos (83;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1242x675 image at pos (83;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1382x675 image at pos (83;238) [area:1920x1080]
+frame=   14 fps=0.0 q=-0.0 size=      68kB time=00:00:00.55 bitrate=1010.9kbits/s speed=1.03x    [gif @ 00000222a663e880] 1523x675 image at pos (83;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1633x675 image at pos (83;238) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 00000222a663e880] 1546x643 image at pos (170;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1488x531 image at pos (228;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1440x436 image at pos (276;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1345x371 image at pos (371;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1243x346 image at pos (473;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1135x346 image at pos (581;238) [area:1920x1080]
+[gif @ 00000222a663e880] 1046x346 image at pos (670;238) [area:1920x1080]
+[gif @ 00000222a663e880] 952x346 image at pos (764;238) [area:1920x1080]
+[gif @ 00000222a663e880] 832x346 image at pos (884;238) [area:1920x1080]
+[gif @ 00000222a663e880] 713x339 image at pos (1003;245) [area:1920x1080]
+frame=   27 fps= 26 q=-0.0 size=     182kB time=00:00:01.09 bitrate=1368.9kbits/s speed=1.03x    [gif @ 00000222a663e880] 559x323 image at pos (1157;261) [area:1920x1080]
+[gif @ 00000222a663e880] 442x266 image at pos (1274;318) [area:1920x1080]
+[gif @ 00000222a663e880] 303x237 image at pos (1413;347) [area:1920x1080]
+[gif @ 00000222a663e880] 165x201 image at pos (1551;383) [area:1920x1080]
+[gif @ 00000222a663e880] 52x146 image at pos (1664;438) [area:1920x1080]
+[gif @ 00000222a663e880] 1x1 image at pos (1919;1079) [area:1920x1080]
+[Parsed_paletteuse_0 @ 00000222a6a14d80] [framesync @ 00000222a6a52f08] Sync level 0
+[out_0_0 @ 00000222a6a25180] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   33 fps= 25 q=-0.0 Lsize=     197kB time=00:00:01.34 bitrate=1206.2kbits/s speed=1.02x    
+[AVIOContext @ 00000222a65bdc40] Statistics: 0 seeks, 4 writeouts
+video:197kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.009900%
+Input file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/frame%04d.png):
+  Input stream #0:0 (video): 33 packets read (1978171 bytes); 33 frames decoded; 
+  Total: 33 packets (1978171 bytes) demuxed
+Input file #1 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/palette.png):
+  Input stream #1:0 (video): 1 packets read (445 bytes); 1 frames decoded; 
+  Total: 1 packets (445 bytes) demuxed
+Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Keha3/keha3Safety.gif):
+  Output stream #0:0 (video): 33 frames encoded; 33 packets muxed (202024 bytes); 
+  Total: 33 packets (202024 bytes) muxed
+34 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000222a65c1400] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 00000222a65caac0] Statistics: 445 bytes read, 0 seeks

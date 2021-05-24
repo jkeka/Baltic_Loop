@@ -1,0 +1,132 @@
+ffmpeg version N-101030-g129bab5c7e-ge0fd35d867+2 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration:  --pkg-config=pkgconf --cc='ccache gcc' --cxx='ccache g++' --disable-autodetect --enable-amf --enable-bzlib --enable-cuda --enable-cuvid --enable-d3d11va --enable-dxva2 --enable-iconv --enable-lzma --enable-nvenc --enable-zlib --enable-sdl2 --enable-ffnvcodec --enable-nvdec --enable-cuda-llvm --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libdav1d --enable-libaom --disable-debug --enable-fontconfig --enable-libass --enable-libbluray --enable-libfreetype --enable-libmfx --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-amrwbenc --enable-libwebp --enable-libxml2 --enable-libzimg --enable-libshine --enable-gpl --enable-avisynth --enable-libxvid --enable-libopenmpt --enable-version3 --enable-libsrt --enable-libgsm --enable-libvmaf --enable-libsvtav1 --enable-librtmp --enable-mbedtls --extra-cflags=-DLIBTWOLAME_STATIC --extra-libs=-lstdc++ --extra-cflags=-DLIBXML_STATIC --extra-libs=-liconv --disable-w32threads
+  libavutil      56. 64.100 / 56. 64.100
+  libavcodec     58.122.100 / 58.122.100
+  libavformat    58. 67.100 / 58. 67.100
+  libavdevice    58. 11.103 / 58. 11.103
+  libavfilter     7.103.100 /  7.103.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.UprIyS'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/Koskenkyla_nuolet.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Acer/AppData/Local/Temp/KritaFFmpegProgress.UprIyS.
+[file @ 000001920d13dbc0] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame%04d.png.
+[image2 @ 000001920d17df80] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame0000.png' for reading
+[file @ 000001920d182a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001920d18ac40] Statistics: 71625 bytes read, 0 seeks
+[image2 @ 000001920d17df80] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame0001.png' for reading
+[file @ 000001920d1890c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001920d189240] Statistics: 71423 bytes read, 0 seeks
+[image2 @ 000001920d17df80] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame0002.png' for reading
+[file @ 000001920d189180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001920d189480] Statistics: 71830 bytes read, 0 seeks
+[image2 @ 000001920d17df80] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame0003.png' for reading
+[file @ 000001920d189180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001920d189640] Statistics: 72128 bytes read, 0 seeks
+[image2 @ 000001920d17df80] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame0004.png' for reading
+[file @ 000001920d189180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001920d189800] Statistics: 72342 bytes read, 0 seeks
+Input #0, image2, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame%04d.png':
+  Duration: 00:00:00.20, start: 0.000000, bitrate: N/A
+  Stream #0:0, 5, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/palette.png.
+[NULL @ 000001920d18a640] Opening 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/palette.png' for reading
+[file @ 000001920d13ce00] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 000001920d18a640] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000001920d18a640] Before avformat_find_stream_info() pos: 0 bytes read:224 seeks:0 nb_streams:1
+[png_pipe @ 000001920d18a640] After avformat_find_stream_info() pos: 224 bytes read:224 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/palette.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/Koskenkyla_nuolet.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/Koskenkyla_nuolet.gif.
+[file @ 000001920d182e40] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 53 times
+[graph 0 input from stream 0:0 @ 000001920d5cbac0] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 000001920d5cbac0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001920d5cbac0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000001920d5cbac0] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 000001920d5cbac0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000001920d5cbac0] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834
+[graph 0 input from stream 1:0 @ 000001920d5b9140] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000001920d5b9140] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000001920d5b9140] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000001920d5b9140] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000001920d5b9140] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000001920d5b9140] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 000001920d5b94c0] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 000001920d5d4b80] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001920d5e1ec0] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000001920d5d5280] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001920d5e1ec0] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000001920d1a4dc0] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000001920d6931c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001920d5d4b80] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000001920d6b2980] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001920d5d5280] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000001920d5e1ec0] [framesync @ 000001920d6107c8] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 000001920d5e1ec0] [framesync @ 000001920d6107c8] Sync level 2
+Output #0, gif, to 'D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/Koskenkyla_nuolet.gif':
+  Metadata:
+    encoder         : Lavf58.67.100
+  Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8(pc, progressive), 1920x1080 (0x0) [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn (default)
+    Metadata:
+      encoder         : Lavc58.122.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 000001920d1b8c00] 449x861 image at pos (560;24) [area:1920x1080]
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.846x    [gif @ 000001920d1b8c00] 471x822 image at pos (543;43) [area:1920x1080]
+[gif @ 000001920d1b8c00] 497x781 image at pos (524;70) [area:1920x1080]
+[gif @ 000001920d1b8c00] 525x756 image at pos (499;89) [area:1920x1080]
+[gif @ 000001920d1b8c00] 553x758 image at pos (475;101) [area:1920x1080]
+[Parsed_paletteuse_0 @ 000001920d5e1ec0] [framesync @ 000001920d6107c8] Sync level 0
+[out_0_0 @ 000001920d5b93c0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=    5 fps=0.0 q=-0.0 Lsize=      33kB time=00:00:00.18 bitrate=1496.6kbits/s speed=0.804x    
+[AVIOContext @ 000001920d17dd00] Statistics: 0 seeks, 2 writeouts
+video:33kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.059430%
+Input file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/frame%04d.png):
+  Input stream #0:0 (video): 5 packets read (359348 bytes); 5 frames decoded; 
+  Total: 5 packets (359348 bytes) demuxed
+Input file #1 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/palette.png):
+  Input stream #1:0 (video): 1 packets read (224 bytes); 1 frames decoded; 
+  Total: 1 packets (224 bytes) demuxed
+Output file #0 (D:/Peliprojektit/Projektit/Baltic_Loop/Krita_animaatiot/Koskenkyla/Koskenkyla_nuolet.gif):
+  Output stream #0:0 (video): 5 frames encoded; 5 packets muxed (33653 bytes); 
+  Total: 5 packets (33653 bytes) muxed
+6 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001920d182f40] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 000001920d180dc0] Statistics: 224 bytes read, 0 seeks
